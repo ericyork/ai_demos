@@ -1,3 +1,7 @@
+body {
+  position: relative;
+  min-height: 90vh;
+}
 img {
   border: 2px solid #DADADA;
 }
@@ -5,7 +9,8 @@ img {
   font-size: 2em;
 }
 nav {
-  padding: 2em;
+  padding: 2em 0;
+  justify-content: space-between;
 }
 a:link, a:visited {
   opacity: .8;
@@ -35,4 +40,12 @@ a svg {
 }
 .listings a p {
   flex: 1 0 75%;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
