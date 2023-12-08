@@ -1,0 +1,18 @@
+{
+  "name": "isu-demo",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ericyork",
+  "license": "ISC",
+  "dependencies": {
+    "@huggingface/agents": "^0.0.5",
+    "@huggingface/hub": "^0.12.2",
+    "@huggingface/inference": "^2.6.4",
+    "dotenv": "^16.3.1"
+  }
+}
