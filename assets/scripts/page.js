@@ -1,7 +1,6 @@
 
 import { HfInference } from 'https://cdn.jsdelivr.net/npm/@huggingface/inference@2.6.4/+esm';
 
-
 document.getElementById('caption-form').addEventListener('submit', function(event) {
   event.preventDefault();
   let imageUrl = document.getElementById('image-url').value;
